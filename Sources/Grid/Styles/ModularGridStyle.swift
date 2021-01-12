@@ -1,3 +1,6 @@
+
+#if arch(x86_64) || arch(arm64)
+
 import SwiftUI
 
 /// Modular `Grid` style.
@@ -78,3 +81,5 @@ public struct ModularGridStyle: GridStyle {
         return newPreferences
     }
 }
+
+#endif

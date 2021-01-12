@@ -1,3 +1,6 @@
+
+#if arch(x86_64) || arch(arm64)
+
 import Foundation
 import SwiftUI
 
@@ -8,3 +11,5 @@ public struct GridPreferencesKey: PreferenceKey {
         value.merge(with: nextValue())
     }
 }
+
+#endif

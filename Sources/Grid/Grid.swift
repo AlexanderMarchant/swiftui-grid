@@ -1,3 +1,6 @@
+
+#if arch(x86_64) || arch(arm64)
+
 import SwiftUI
 
 /// A view that arranges its children in a grid.
@@ -46,4 +49,6 @@ struct Grid_Previews: PreviewProvider {
         }
     }
 }
+#endif
+
 #endif

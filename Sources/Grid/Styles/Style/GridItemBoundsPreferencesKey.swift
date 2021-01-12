@@ -1,3 +1,6 @@
+
+#if arch(x86_64) || arch(arm64)
+
 import SwiftUI
 
 public struct GridItemBoundsPreferencesKey: PreferenceKey {
@@ -7,3 +10,5 @@ public struct GridItemBoundsPreferencesKey: PreferenceKey {
         value.append(contentsOf: nextValue())
     }
 }
+
+#endif

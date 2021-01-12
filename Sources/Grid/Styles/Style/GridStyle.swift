@@ -1,3 +1,6 @@
+
+#if arch(x86_64) || arch(arm64)
+
 import SwiftUI
 
 /// A specification for the appearance of a `Grid`.
@@ -15,3 +18,5 @@ public extension GridStyle {
         self.axis == .horizontal ? .horizontal : .vertical
     }
 }
+
+#endif

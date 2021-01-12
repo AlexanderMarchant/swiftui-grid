@@ -1,3 +1,6 @@
+
+#if arch(x86_64) || arch(arm64)
+
 import SwiftUI
 
 /// Staggered `Grid` style.
@@ -81,3 +84,5 @@ public struct StaggeredGridStyle: GridStyle {
         return newPreferences
     }
 }
+
+#endif
