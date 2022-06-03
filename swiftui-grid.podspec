@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'swiftui-grid'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'Grid for SwiftUI'
   s.description      = <<-DESC
 SwiftUI Grid view layout with custom styles.
